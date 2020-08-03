@@ -17,7 +17,6 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import Search from './src/screens/search';
 import Fav from './src/screens/fav';
-import My from './src/screens/my';
 import Profile from './src/screens/profile';
 import commonStyles from './commonStyles';
 
@@ -88,9 +87,6 @@ const TabNav = () => {
             iconName = 'ios-search';
           } else if (route.name === 'Fav') {
             iconName = focused ? 'ios-heart' : 'ios-heart-outline';
-          }
-          else if (route.name === 'My') {
-            iconName = focused ? 'ios-person' : 'ios-person-outline';
           }
           
           // You can return any component that you like here!
