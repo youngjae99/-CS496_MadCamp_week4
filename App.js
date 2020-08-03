@@ -38,7 +38,7 @@ export default function App() {
             else if (route.name === 'Settings') {
               iconName = focused ? 'ios-list' : 'ios-list-outline';
             }
-
+            //1
             // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
           },
