@@ -35,6 +35,7 @@ const DrawerNav = (props) => {
         // 20200501 JustCode: 
         // Pass in the toggleCamera from parent component (App) method to DrawerContent
         // Add profilePhoto props to hold the profile image
+        // update
         drawerProps => <DrawerContent {...drawerProps} toggleCamera={props.toggleCamera} profilePhoto={props.profilePhoto} />
       }
     >
